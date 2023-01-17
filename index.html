@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Form Car</title>
+</head>
+<body>
+    <form method="post">
+        <label for="name">Name<sup>*</sup></label> 
+        <input type="text" id="name" placeholder="Name" required><br>
+        <label for="email">Email<sup>*</sup></label>
+        <input type="email" id="email" placeholder="Email" required><br>
+        <label for="gender">Gender<sup>*</sup></label>
+        <input type="radio" name="gender" id="Male" name="Gender" value="Male">
+        <label for="Male">Male</label>
+        <input type="radio" name="gender" id="Female" name="Gender" value="Female">
+        <label for="Female">Female</label><br>
+        <label for="cars">Car Brands<sup>*</sup></label>
+        <select name="cars" id="cars">
+            <option value="bmw">BMW</option>
+            <option value="audi">Audi</option>
+            <option value="mercedez">Mercedez</option>
+        </select><br>      
+        <label for="age">Age<sup>*</sup></label>
+        <input type="number" id="age" placeholder="Age" required><br>
+        <label for="dob">DOB<sup>*</sup></label>
+        <input type="text" id="dob" placeholder="dd/mm/yy" required><br>
+        <label for="password">Password<sup>*</sup></label>
+        <input type="password" id="password" name="password" placeholder="Password" minlength="8" required><br>
+        <label for="submit">Submit button</submit>
+        <button type="submit">Click here</button> 
+        </form>
+</body>
+</html>
